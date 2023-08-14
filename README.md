@@ -1,10 +1,10 @@
 # Scripting-Database-backup
 Shell script to backup databases: MYSQL & PostgreSQL
 
-The 2 scripts are used to backup/dump databases to a directory called backup. So, first create a directory called backup.
+The 2 scripts are used to backup/dump databases to a directory called backup. So, first create a directory called backup.        
 Add the secrets or environment variables for the database. This can be done in the .bashrc file as below:                                                                             
-    export DB_HOST="<enter db  host>"
-    export DB_USERNAME="<enter db username>"
+    export DB_HOST="<enter db  host>"                                                                                               
+    export DB_USERNAME="<enter db username>"                                                                                      
     export DB_PASSWORD="<db password>"
 
     
