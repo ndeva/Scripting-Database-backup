@@ -12,10 +12,10 @@ TODAY=`date +"%d%b%Y"`
 
 echo "Read database credentials from the environment variables and CLI command"
 DB_BACKUP_PATH='backup'
-PSQL_HOST=""
-PSQL_PORT="5432"
-PSQL_USER=""
-PSQL_PASSWORD=""
+MYSQL_HOST=${DB_HOST}
+MYSQL_PORT="5432"
+MYSQL_USER=${DB_USERNAME}
+MYSQL_PASSWORD=${DB_PASSWORD}
 DATABASE_NAME="$1"
 BACKUP_RETAIN_DAYS=30   ## Number of days to keep local backup copy
 
